@@ -13,6 +13,8 @@
 		28872BD715BDD29D00481B1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28872BD515BDD29D00481B1A /* InfoPlist.strings */; };
 		28872BD915BDD29D00481B1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28872BD815BDD29D00481B1A /* main.m */; };
 		28872BDD15BDD29E00481B1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28872BDC15BDD29E00481B1A /* AppDelegate.m */; };
+		28872BF215BDD32E00481B1A /* BOMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28872BEF15BDD32E00481B1A /* BOMenuCell.m */; };
+		28872BF315BDD32E00481B1A /* BOMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28872BF115BDD32E00481B1A /* BOMenuTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		28872BDA15BDD29D00481B1A /* BOMenuTableViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BOMenuTableViewController-Prefix.pch"; sourceTree = "<group>"; };
 		28872BDB15BDD29E00481B1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		28872BDC15BDD29E00481B1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28872BEE15BDD32E00481B1A /* BOMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOMenuCell.h; sourceTree = SOURCE_ROOT; };
+		28872BEF15BDD32E00481B1A /* BOMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOMenuCell.m; sourceTree = SOURCE_ROOT; };
+		28872BF015BDD32E00481B1A /* BOMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOMenuTableViewController.h; sourceTree = SOURCE_ROOT; };
+		28872BF115BDD32E00481B1A /* BOMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOMenuTableViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,10 @@
 		28872BD215BDD29D00481B1A /* BOMenuTableViewController */ = {
 			isa = PBXGroup;
 			children = (
+				28872BEE15BDD32E00481B1A /* BOMenuCell.h */,
+				28872BEF15BDD32E00481B1A /* BOMenuCell.m */,
+				28872BF015BDD32E00481B1A /* BOMenuTableViewController.h */,
+				28872BF115BDD32E00481B1A /* BOMenuTableViewController.m */,
 				28872BDB15BDD29E00481B1A /* AppDelegate.h */,
 				28872BDC15BDD29E00481B1A /* AppDelegate.m */,
 				28872BD315BDD29D00481B1A /* Supporting Files */,
@@ -154,6 +164,8 @@
 			files = (
 				28872BD915BDD29D00481B1A /* main.m in Sources */,
 				28872BDD15BDD29E00481B1A /* AppDelegate.m in Sources */,
+				28872BF215BDD32E00481B1A /* BOMenuCell.m in Sources */,
+				28872BF315BDD32E00481B1A /* BOMenuTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +271,7 @@
 				28872BE215BDD29E00481B1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
