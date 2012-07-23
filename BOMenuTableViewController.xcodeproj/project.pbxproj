@@ -10,11 +10,11 @@
 		28872BCD15BDD29D00481B1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28872BCC15BDD29D00481B1A /* UIKit.framework */; };
 		28872BCF15BDD29D00481B1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28872BCE15BDD29D00481B1A /* Foundation.framework */; };
 		28872BD115BDD29D00481B1A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28872BD015BDD29D00481B1A /* CoreGraphics.framework */; };
-		28872BD715BDD29D00481B1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28872BD515BDD29D00481B1A /* InfoPlist.strings */; };
-		28872BD915BDD29D00481B1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28872BD815BDD29D00481B1A /* main.m */; };
-		28872BDD15BDD29E00481B1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28872BDC15BDD29E00481B1A /* AppDelegate.m */; };
 		28872BF215BDD32E00481B1A /* BOMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28872BEF15BDD32E00481B1A /* BOMenuCell.m */; };
 		28872BF315BDD32E00481B1A /* BOMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28872BF115BDD32E00481B1A /* BOMenuTableViewController.m */; };
+		28872BF615BDD37700481B1A /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28872BF515BDD37700481B1A /* DemoViewController.m */; };
+		28872BF915BDD47C00481B1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28872BF815BDD47C00481B1A /* AppDelegate.m */; };
+		28872BFB15BDD49A00481B1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28872BFA15BDD49A00481B1A /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,15 +23,16 @@
 		28872BCE15BDD29D00481B1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		28872BD015BDD29D00481B1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28872BD415BDD29D00481B1A /* BOMenuTableViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BOMenuTableViewController-Info.plist"; sourceTree = "<group>"; };
-		28872BD615BDD29D00481B1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		28872BD815BDD29D00481B1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28872BDA15BDD29D00481B1A /* BOMenuTableViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BOMenuTableViewController-Prefix.pch"; sourceTree = "<group>"; };
-		28872BDB15BDD29E00481B1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		28872BDC15BDD29E00481B1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		28872BEE15BDD32E00481B1A /* BOMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOMenuCell.h; sourceTree = SOURCE_ROOT; };
 		28872BEF15BDD32E00481B1A /* BOMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOMenuCell.m; sourceTree = SOURCE_ROOT; };
 		28872BF015BDD32E00481B1A /* BOMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOMenuTableViewController.h; sourceTree = SOURCE_ROOT; };
 		28872BF115BDD32E00481B1A /* BOMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOMenuTableViewController.m; sourceTree = SOURCE_ROOT; };
+		28872BF415BDD37700481B1A /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = SOURCE_ROOT; };
+		28872BF515BDD37700481B1A /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = SOURCE_ROOT; };
+		28872BF715BDD47C00481B1A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		28872BF815BDD47C00481B1A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		28872BFA15BDD49A00481B1A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,13 +79,15 @@
 		28872BD215BDD29D00481B1A /* BOMenuTableViewController */ = {
 			isa = PBXGroup;
 			children = (
+				28872BF715BDD47C00481B1A /* AppDelegate.h */,
+				28872BF815BDD47C00481B1A /* AppDelegate.m */,
 				28872BEE15BDD32E00481B1A /* BOMenuCell.h */,
 				28872BEF15BDD32E00481B1A /* BOMenuCell.m */,
 				28872BF015BDD32E00481B1A /* BOMenuTableViewController.h */,
 				28872BF115BDD32E00481B1A /* BOMenuTableViewController.m */,
-				28872BDB15BDD29E00481B1A /* AppDelegate.h */,
-				28872BDC15BDD29E00481B1A /* AppDelegate.m */,
 				28872BD315BDD29D00481B1A /* Supporting Files */,
+				28872BF415BDD37700481B1A /* DemoViewController.h */,
+				28872BF515BDD37700481B1A /* DemoViewController.m */,
 			);
 			path = BOMenuTableViewController;
 			sourceTree = "<group>";
@@ -92,9 +95,8 @@
 		28872BD315BDD29D00481B1A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				28872BFA15BDD49A00481B1A /* main.m */,
 				28872BD415BDD29D00481B1A /* BOMenuTableViewController-Info.plist */,
-				28872BD515BDD29D00481B1A /* InfoPlist.strings */,
-				28872BD815BDD29D00481B1A /* main.m */,
 				28872BDA15BDD29D00481B1A /* BOMenuTableViewController-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -151,7 +153,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28872BD715BDD29D00481B1A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,25 +163,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28872BD915BDD29D00481B1A /* main.m in Sources */,
-				28872BDD15BDD29E00481B1A /* AppDelegate.m in Sources */,
 				28872BF215BDD32E00481B1A /* BOMenuCell.m in Sources */,
 				28872BF315BDD32E00481B1A /* BOMenuTableViewController.m in Sources */,
+				28872BF615BDD37700481B1A /* DemoViewController.m in Sources */,
+				28872BF915BDD47C00481B1A /* AppDelegate.m in Sources */,
+				28872BFB15BDD49A00481B1A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		28872BD515BDD29D00481B1A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				28872BD615BDD29D00481B1A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		28872BDE15BDD29E00481B1A /* Debug */ = {
@@ -234,8 +225,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BOMenuTableViewController/BOMenuTableViewController-Prefix.pch";
-				INFOPLIST_FILE = "BOMenuTableViewController/BOMenuTableViewController-Info.plist";
+				GCC_PREFIX_HEADER = "BOMenuTableViewController-Prefix.pch";
+				INFOPLIST_FILE = "BOMenuTableViewController-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -245,8 +236,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BOMenuTableViewController/BOMenuTableViewController-Prefix.pch";
-				INFOPLIST_FILE = "BOMenuTableViewController/BOMenuTableViewController-Info.plist";
+				GCC_PREFIX_HEADER = "BOMenuTableViewController-Prefix.pch";
+				INFOPLIST_FILE = "BOMenuTableViewController-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
