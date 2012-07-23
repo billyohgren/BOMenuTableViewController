@@ -7,7 +7,7 @@ I got the inspiration from the wonderful Twitter client Tweetbot and thought thi
 
 Be aware that I coded this in under an hour, there's a lot to improve...
 
-https://github.com/billyohgren/BOMenuTableViewController/blob/master/screenshot/BOMenuTableViewController.png
+![BOMenuTableViewController](/screenshot/BOMenuTableViewController.png)
 
 Instructions:
 
