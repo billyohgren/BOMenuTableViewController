@@ -14,6 +14,8 @@
     NSMutableArray *items_;
 }
 
+// Return height of the regular cell - defaults to 60.
+- (CGFloat)tableView:(UITableView *)tableView heightForRegularCellAtIndexPath:(NSIndexPath *)indexPath;
 // Return height of the menu cell - defaults to 40.
 - (CGFloat)tableView:(UITableView *)tableView heightForMenuCellAtIndexPath:(NSIndexPath *)indexPath;
 // Return your menu cell at index
