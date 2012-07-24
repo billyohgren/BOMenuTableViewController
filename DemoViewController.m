@@ -35,12 +35,6 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    [super tableView:tableView heightForRowAtIndexPath:indexPath];
-    return 60.0;
-}
-
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [super tableView:tableView cellForRowAtIndexPath:indexPath];
