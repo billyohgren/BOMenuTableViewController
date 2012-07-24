@@ -58,7 +58,7 @@
     if ([object isKindOfClass:[BOMenuCell class]]) {
         return [self tableView:tableView heightForMenuCellAtIndexPath:indexPath];
     }
-    return 60.0;
+    return [self tableView:tableView heightForRegularCellAtIndexPath:indexPath];
 }
 
 
