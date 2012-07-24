@@ -81,6 +81,12 @@
 
 #pragma mark - BOMenuTableViewController Methods
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRegularCellAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 60;
+}
+
+
 - (CGFloat)tableView:(UITableView *)tableView heightForMenuCellAtIndexPath:(NSIndexPath *)indexPath
 {
     return 40;
